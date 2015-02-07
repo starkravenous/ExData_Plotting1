@@ -34,12 +34,12 @@ do.plot4 <- function() {
 make.plot4 <- function() {
     # open file for plotting (480x480 is the default)
     out.file <- "plot4.png"
-    #png(out.file)
+    png(out.file)
 
     do.plot4()
 
     # close the file
-    #dev.off()
+    dev.off()
 }
 
 make.plot4()
